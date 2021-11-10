@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repruebe a Octavio por favor</title>
+    <title>Super del Sur - Verificador</title>
     <style>
-        div {
-            height: 600px;
+        body {
+            height: 700px;
             position: relative;
         }
 
-        img {
+        #barcode {
             position: absolute;
-            top: 50%;
+            top: 90%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
+		
+		#logo{
+			position: absolute;
+			top:30%;
+			left:50%;
+			transform: translate(-50%, -50%);
+		}
+		
+	
 
         h1 {
             text-align: center;
@@ -42,11 +51,13 @@
 </head>
 
 <body>
-    <h1>Súper del Sur</h1>
+	<div>
+		<img id="logo" src="img/Logo.png" alt="" width="" height="">
+	</div>
     <div>
-        <img src="img/barcode-scan.gif" alt="" width="" height="">
+        <img id="barcode" src="img/barcode-scan.gif" alt="" width="" height="">
     </div>
-    <h1>Favor de ingresar el código de barras abajo</h1>
+    <h1>Coloque el codigo de barras en el escaner</h1>
 </body>
 
 </html>

@@ -3,5 +3,5 @@
     $username = "root";
     $password = "";
     $dbname = "verificador_de_precios";
-    $port = 3306;
+    $port = 8012;
 ?>
